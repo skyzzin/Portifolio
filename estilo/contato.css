@@ -1,0 +1,39 @@
+
+
+body{
+    background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    position: relative;
+    
+}
+header{
+    width:80% ;
+    height: 400px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contato-icones{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 250px;
+}
+footer{
+    width:50%;
+    height: 10%;
+    border: 1px solid black;
+    margin: -200px 0px 0px 250px;
+    text-align: center;
+}
+.tecnologias {
+    
+
+
+}

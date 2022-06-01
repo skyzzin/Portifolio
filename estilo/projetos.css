@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    font-family: '';
+    background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
+}
+header{
+    width: 800px;
+    height: 40px;
+
+}
+header h1{
+    text-align: center;
+    margin: 0px 0px 0px 172px;
+
+}
+
+.container{
+    width: 520px;
+    height: 430px;
+    margin: 101px 0px 0px 230px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-html{
+    width: 250px;
+    height: 200px;
+    background: rgb(224, 76, 76);
+    
+}
+.project-html2{
+    width: 250px;
+    height: 200px;
+    background: rgb(192, 112, 112);
+    margin: 0px 0px 0px 19px;
+}
+.project-js{
+    width: 250px;
+    height: 200px;
+    background: rgb(172, 121, 121);
+}
+.project-js2{
+    width: 250px;
+    height: 200px;
+    background: rgb(0, 0, 0);
+    margin: 0px 0px 0px 19px;
+
+}
+
+

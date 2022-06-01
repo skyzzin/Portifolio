@@ -1,0 +1,37 @@
+body{
+    width: 800px;
+    background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
+}
+main{
+    text-align: center;
+}
+.h1{
+    margin: 0px 0px 0px 100px;
+}
+.frame{
+    width: 400px;
+    height: 720px;
+    border: solid 1px black;
+    margin: 48px 0px 0px 250px;
+}
+.frame img{
+    width: 100% ;
+    height: 100%;
+}
+.titulo{
+    font-size: 40px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header .voltar{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px -88px 0px 0px;
+    text-decoration: none;
+    background: white;
+}
