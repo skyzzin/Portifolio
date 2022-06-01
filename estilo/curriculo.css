@@ -1,6 +1,7 @@
 body{
     width: 800px;
     background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
+    background-image: url(../imagens/FUNDO.jpg);
 }
 main{
     text-align: center;

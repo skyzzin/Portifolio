@@ -10,7 +10,9 @@ body{
     width: 100%;
     height: 100%;
     font-family: "Orbitron";
+    
     background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
+    background-image: url(../imagens/FUNDO.jpg);
 }   
 header{
     width: 100%;
@@ -59,9 +61,25 @@ main{
     margin: 0px 0px 0px 150px;
     
 }
-main p {
-    margin: 50px;
+.logo-nick{
+    background: rgba(0, 0, 0, 0.301);
+    width: 50%;
+    margin: 0px 0px 0px 25%;
+    
 }
+main p {
+    
+    margin: 50px ;
+    
+    
+}
+.logo-nick2{
+    background: rgba(0, 0, 0, 0.219);
+    width: 50%;
+    margin: 0px 0px 0px 25%;
+    
+}
+
 
 
 
