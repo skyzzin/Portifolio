@@ -1,0 +1,9 @@
+body{
+    background: rgb(12, 150, 12);
+    max-width: 600px;
+    max-height: 500%;
+}
+.logo{
+    width: 40%;
+    height: 40%;
+}
