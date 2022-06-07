@@ -2,25 +2,21 @@
 
 body{
     background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
-    width: 100%;
-    height: 100%;
     max-width: 800px;
-    max-height: 600px;
+    max-height: 800px;
+    height:100%;
     position: relative;
     background-image: url(../imagens/FUNDO.jpg);
+    
     
 }
 header{
     width:80% ;
     height: 400px;
-    gap: 0px 0px 0px 0px;
 }
 header img{
     width: 100px;
     height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 .contato-icones{
     display: flex;
@@ -33,9 +29,5 @@ footer{
     border: 1px solid black;
     margin: -200px 0px 0px 250px;
     text-align: center;
-}
-.tecnologias {
-    
-
-
+    align-items: center;
 }
