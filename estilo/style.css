@@ -5,14 +5,10 @@
     margin: 0;
 }
 body{
-    max-width: 800px;
-    max-height: 600px;
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    height: 600px;
     font-family: "Orbitron";
     background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
-    
-
     background-image: url(../imagens/FUNDO.jpg);
     background-repeat: no-repeat  ;
     background-size: cover ;
@@ -20,69 +16,50 @@ body{
   
 }   
 header{
-    width: 100%;
-    height: 10%;
+    width: 900px;
+    height: 70px;
     margin: 19px;
-  
+    
 }
-header .container .NavBar{
+.container{
     display: flex;
     justify-content: space-between;
+    
+}
+.NavBar{
+    display: flex;
+    gap: 100px;
+   
+}
+.i1, .i2, .i3{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
     list-style: none;
-    font-size: 25px; 
-    margin: 0px 0px 0px 150px;
+    font-size: 24px;
+    background: white;
+    color: black;
     
 }
-header a{
-    text-decoration: none;
+.i1:hover, .i2:hover , .i3:hover{
+    background: rgba(255, 254, 254, 0.397);
     
-    
-}
-.NavBar .i1 {
-    border: 1px solid rgb(105, 8, 231);
-    border-radius: 15px;
-    background: white;
-    width: 150px ;
-    text-align: center;
-}
-.NavBar .i2 {
-    border: 1px solid rgb(105, 8, 231);
-    border-radius: 15px;
-    background: white;
-    width: 150px ;
-    text-align: center;
-}
-
-.NavBar .i3 {
-    border: 1px solid rgb(105, 8, 231);
-    border-radius: 15px;
-    background: white;
-    width: 150px ;
-    text-align: center;
 }
 main{
+    position: relative;
     text-align: center;
-    align-items: center;
-    margin: 0px 0px 0px 150px;
-    
+    left: 200px;
 }
-.logo-nick{
-    background: rgba(0, 0, 0, 0.301);
-    width: 50%;
-    margin: 0px 0px 0px 25%;
-    
+a{
+    text-decoration: none;
 }
-main p {
-    
-    margin: 50px ;
-    
-    
-}
-.logo-nick2{
-    background: rgba(0, 0, 0, 0.219);
-    width: 50%;
-    margin: 0px 0px 0px 25%;
-    
+footer{
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 200px;
+    left: 200px;
 }
 
 
