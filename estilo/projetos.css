@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+        text-decoration: none;
 
+    
+}
 body{
     font-family: '';
     background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
@@ -9,14 +13,11 @@ body{
 header{
     width: 800px;
     height: 40px;
-
 }
 header h1{
     text-align: center;
     margin: 0px 0px 0px 172px;
-
 }
-
 .container{
     width: 520px;
     height: 430px;
@@ -27,8 +28,10 @@ header h1{
 .project-html{
     width: 250px;
     height: 200px;
-    background: rgb(224, 76, 76);
-    
+    background: rgba(195, 238, 1, 0.493);
+    background-image: url(../Projetos/InstaCopy/img/instagram-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .project-html2{
     width: 250px;
@@ -46,7 +49,4 @@ header h1{
     height: 200px;
     background: rgb(0, 0, 0);
     margin: 0px 0px 0px 19px;
-
 }
-
-

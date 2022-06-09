@@ -3,33 +3,30 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 body{
-    width: 800px;
-    height: 600px;
+    max-width: 800px;
+    height: 833px;
     font-family: "Orbitron";
     background: linear-gradient(to right, rgba(0, 229, 236, 0.979),rgb(89, 248, 129));
-    background-image: url(../imagens/FUNDO.jpg);
     background-repeat: no-repeat  ;
     background-size: cover ;
     background-position: center center;
-  
+    background-image: url(../imagens/FUNDO.jpg);
 }   
 header{
     width: 900px;
     height: 70px;
     margin: 19px;
-    
 }
 .container{
     display: flex;
     justify-content: space-between;
-    
 }
 .NavBar{
     display: flex;
     gap: 100px;
-   
 }
 .i1, .i2, .i3{
     border: 1px solid black;
@@ -41,11 +38,9 @@ header{
     font-size: 24px;
     background: white;
     color: black;
-    
 }
 .i1:hover, .i2:hover , .i3:hover{
     background: rgba(255, 254, 254, 0.397);
-    
 }
 main{
     position: relative;
@@ -61,7 +56,3 @@ footer{
     top: 200px;
     left: 200px;
 }
-
-
-
-
